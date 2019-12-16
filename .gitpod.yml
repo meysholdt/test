@@ -1,4 +1,6 @@
-image: gitpod/workspace-full:build-branch-me-apache_php
+image:  
+   context: ./vsix
+   file: .gitpod.Dockerfile
 
 # List the ports you want to expose and what to do when they are served. See https://www.gitpod.io/docs/43_config_ports/
 ports:
