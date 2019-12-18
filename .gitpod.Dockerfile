@@ -1,4 +1,4 @@
-FROM dwavesys/leapide
+FROM docker.io/meysholdt/test123
 
 ENV GITPOD_STATIC_PLUGINS=/var/vsix
 
