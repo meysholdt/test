@@ -11,4 +11,4 @@ COPY Tyriar.sort-lines-1.9.0.vsix /var/vsix/Tyriar.sort-lines-1.9.0.vsix
 RUN chown gitpod:gitpod -R /var/vsix/
 
 
-# foo bar
+# foo bar baz
