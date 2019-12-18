@@ -12,3 +12,4 @@ RUN chown gitpod:gitpod -R /var/vsix/
 
 
 # foo bar baz
+# foo
