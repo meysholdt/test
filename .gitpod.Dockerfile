@@ -1,4 +1,4 @@
-FROM index.docker.io/dwavesys/leapide
+FROM dwavesys/leapide
 
 ENV GITPOD_STATIC_PLUGINS=/var/vsix
 
