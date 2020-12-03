@@ -1,4 +1,4 @@
-FROM dwavesys/leapide:latest
+FROM gitpod/workspace-full
 
 ENV GITPOD_STATIC_PLUGINS=/var/vsix
 
