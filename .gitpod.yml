@@ -1,2 +1,2 @@
-
-image:  debian:latest
+image:  
+   file: .gitpod.Dockerfile
