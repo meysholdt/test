@@ -4,6 +4,8 @@ ENV GITPOD_STATIC_PLUGINS=/var/vsix
 
 USER root
 
+ENV B=123
+
 RUN mkdir -p /var/vsix/
 
 # COPY Tyriar.sort-lines-1.9.0.vsix /var/vsix/Tyriar.sort-lines-1.9.0.vsix
