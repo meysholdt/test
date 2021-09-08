@@ -4,7 +4,7 @@ ENV GITPOD_STATIC_PLUGINS=/var/vsix
 
 USER root
 
-ENV B=123
+ENV B=124
 
 RUN mkdir -p /var/vsix/
 
