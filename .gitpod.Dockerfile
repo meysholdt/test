@@ -13,5 +13,5 @@ RUN mkdir -p /var/vsix/
 # RUN chown gitpod:gitpod -R /var/vsix/
 
 
-# foo bar baz
+# foo bar baz asdasd
 # foo
