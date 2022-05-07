@@ -1,1 +1,1 @@
-FROM gitpodiopull/alpine:foobar
+FROM ubuntu
