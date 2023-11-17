@@ -3,9 +3,10 @@ image: gitpod/workspace-full
 tasks:
   - name: Check workspace size
     command: | 
-      EXPECTED_CLASS="g1-standard"
+      EXPECTED_CLASS="g1-standard1"
       STOPPING="2m"
       if [ "$GITPOD_WORKSPACE_CLASS" != "$EXPECTED_CLASS" ]
+      then
         echo ""
         echo "Attention! This workspace needs to be started with class $EXPECTED_CLASS!"
         echo "Instead, the workspace has been started with class $GITPOD_WORKSPACE_CLASS"
