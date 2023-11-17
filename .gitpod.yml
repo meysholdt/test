@@ -8,7 +8,7 @@ tasks:
       then
         echo ""
         echo "Attention! This workspace has been started with workspace class $GITPOD_WORKSPACE_CLASS,"
-        echo "but classes "g1-xlarge" and "g1-xxlarge" are currently not available.
+        echo "but classes "g1-xlarge" and "g1-xxlarge" are currently not available."
         echo "Please make sure to select a smaller class when starting the workspace."
         echo "This message is a workaround until the choice of workspace classes has been reduced."
         echo ""
