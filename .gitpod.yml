@@ -3,7 +3,7 @@ image: gitpod/workspace-full
 tasks:
   - name: Check workspace size
     command: | 
-      EXPECTED_CLASS="g1-standard1"
+      EXPECTED_CLASS="g1-standard"
       STOPPING="2m"
       if [ "$GITPOD_WORKSPACE_CLASS" != "$EXPECTED_CLASS" ]
       then
