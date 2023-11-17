@@ -1,5 +1,22 @@
 image: gitpod/workspace-full
 
 tasks:
+  - name: Check workspace size
+    command: | 
+      EXPECTED_CLASS="g1-standard"
+      STOPPING="2m"
+      if [ "$GITPOD_WORKSPACE_CLASS" != "$EXPECTED_CLASS" ]
+        echo ""
+        echo "Attention! This workspace needs to be started with class $EXPECTED_CLASS!"
+        echo "Instead, the workspace has been started with class $GITPOD_WORKSPACE_CLASS"
+        echo "Please make sure to select $EXPECTED_CLASS class when starting the workspace."
+        echo "This message is a workaround until the choice of workspace classes has been reduced."
+        echo ""
+        echo ""
+        echo "To save costs, this workspace will be stopped in $STOPPING"
+        sleep "$STOPPING"
+        gp stop
+      fi
   - name: slow prebuild
     init: sleep 2m
+
