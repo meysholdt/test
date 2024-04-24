@@ -1,6 +1,6 @@
 image: gitpod/workspace-full
 
 tasks:
-  - name: init1
+  - name: init10
     init: |
-      echo "test" && sleep 1
+      echo "test" && sleep 10
